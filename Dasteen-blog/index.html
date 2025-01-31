@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dasteen Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="w-1250 header-inner">
+        <h2 class="Logo">Dasteen<span>.Blog</span></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About Me</a></li>
+                <li>
+                    <a href="#" class="header-button-search">
+                        <img src="img/Icon.png" alt="search button">
+                        Search
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header-button">
+                        <img src="img/simple-icons_buymeacoffee.png" alt="cup of coffee">
+                        Buy Me A Coffee
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Герой-секция с фоном #EFF0F3 -->
+<section class="hero-section">
+    <div class="w-1250 box-form-picture-">
+        <div class="text-email-picture">
+            <h1>Hi, I’m Dasteen Front End Dev</h1>
+            <p class="sidebar-text">
+                On this blog I share tips and tricks, frameworks, projects, tutorials, etc
+                Make sure you subscribe to get the latest updates
+            </p>
+            <form class="subscribe-form">
+                <label>
+                    <input type="email" name="email" placeholder="Enter your email here....">
+                </label>
+                <button>Subscribe</button>
+            </form>
+        </div>
+<!-- Картина в hero-image        -->
+        <div class="hero-image">
+            <img src="img/learn-coding%201.png" alt="A boy holding a computer screen">
+        </div>
+    </div>
+</section>
+
+<!-- Блок "Browse The Category" (CSS, JS, Tailwind...) -->
+<section class="category-section">
+    <div class="w-1250">
+        <div class="category-header">
+            <h2 class="text-h2">Browse The Category</h2>
+            <a href="#" class="see-all-link">
+                See All Category
+                <img src="img/right%20arrow.png" alt="right-arrow">
+            </a>
+        </div>
+<!--  Карточки категорий           -->
+        <div class="hover-cards">
+            <div class="white-box">
+                <div class="icon">
+                    <div class="icon-wrap">
+                        <img src="img/Frame%20291.png" alt="CSS-picture" width="33" height="37">
+                    </div>
+                    <p class="text-name">CSS</p>
+                </div>
+            </div>
+            <div class="white-box">
+                <div class="icon">
+                    <div class="icon-wrap">
+                        <img src="img/Js.png" alt="JS-picture">
+                    </div>
+                    <p class="text-name">JavaScript</p>
+                </div>
+            </div>
+            <div class="white-box">
+                <div class="icon">
+                    <div class="icon-wrap">
+                        <img src="img/Tailwind.png" alt="Tailwind-picture">
+                    </div>
+                    <p class="text-name">Tailwind</p>
+                </div>
+            </div>
+            <div class="white-box">
+                <div class="icon">
+                    <div class="icon-wrap">
+                        <img src="img/Vue%20Js.png" alt="Vue.js-picture">
+                    </div>
+                    <p class="text-name">Vue JS</p>
+                </div>
+            </div>
+            <div class="white-box">
+                <div class="icon">
+                    <div class="icon-wrap">
+                        <img src="img/logos_react.png" alt="React-picture">
+                    </div>
+                    <p class="text-name">React JS</p>
+                </div>
+            </div>
+        </div><!-- hover-cards -->
+    </div>
+</section>
+
+<!-- Рекомендованные статьи -->
+<section class="featured-articles">
+    <div class="w-1250">
+        <div class="title-wrapper">
+            <h2 class="text-h2">Featured Article</h2>
+            <a href="#" class="see-all-link">
+                See All Article
+                <img src="img/right%20arrow.png" alt="right-arrow">
+            </a>
+        </div>
+<!-- 1-я карточка        -->
+        <div class="article-list">
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Notebook.png" alt="Notebook-picture" width="260" height="198">
+                </div>
+                <h3>Fundamental of JavaScript</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+<!-- 2-я карточка     -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Computer.png" alt="Computer-picture" width="260" height="198">
+                </div>
+                <h3>Grid CSS Make Your Life Easier</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+<!--  3-я карточка       -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/teazer.png" alt="teazer-picture" width="260" height="198">
+                </div>
+                <h3>Make Animated Light & Dark Mode Toggle with CSS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+<!--  4-я карточка      -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Article_Image.png" alt="React-Jc-picture" width="260" height="198">
+                </div>
+                <h3>Make Tic Tac Toe Games with React JS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+        </div><!-- .article-list -->
+<!--  2-й блок с карточками      -->
+
+        <div class="title-wrapper">
+            <h2 class="text-h2">CSS</h2>
+            <a href="#" class="see-all-link">
+                See All Article
+                <img src="img/right%20arrow.png" alt="right-arrow">
+            </a>
+        </div>
+        <!-- 1-я карточка        -->
+        <div class="article-list">
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/copybook.png" alt="copybook-picture" width="260" height="198">
+                </div>
+                <h3>Flexbox cSS : Everything you need to know</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!-- 2-я карточка     -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Computer.png" alt="Computer-picture" width="260" height="198">
+                </div>
+                <h3>Grid CSS Make Your Life Easier</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  3-я карточка       -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/monitor.png" alt="monitor-picture" width="260" height="198">
+                </div>
+                <h3>3 easy way to make div center</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  4-я карточка      -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/teazer.png" alt="teaser-picture" width="260" height="198">
+                </div>
+                <h3>Make animated light mode and dark mode toggle with CSS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+        </div><!-- .article-list -->
+
+<!-- 3-й блок с карточками       -->
+        <div class="title-wrapper">
+            <h2 class="text-h2">javascript</h2>
+            <a href="#" class="see-all-link">
+                See All Article
+                <img src="img/right%20arrow.png" alt="right-arrow">
+            </a>
+        </div>
+        <!-- 1-я карточка        -->
+        <div class="article-list">
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/monitorwithcode.png" alt="monitor-with-code-picture" width="260" height="198">
+                </div>
+                <h3>Array In Javasript - Learn JS #3</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!-- 2-я карточка     -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Notebook.png" alt="Notebook-picture" width="260" height="198">
+                </div>
+                <h3>Fundamental Of Javascript</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  3-я карточка       -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/decstop.png" alt="desktop-picture" width="260" height="198">
+                </div>
+                <h3>7 Project With Javascript You Must Try For Your Portfolio</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  4-я карточка      -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/phone.png" alt="iphone-picture" width="260" height="198">
+                </div>
+                <h3>Make Simple Calculator With Javascript</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+        </div><!-- .article-list -->
+<!--  4-й блок с карточками      -->
+        <div class="title-wrapper">
+            <h2 class="text-h2">React JS</h2>
+            <a href="#" class="see-all-link">
+                See All Article
+                <img src="img/right%20arrow.png" alt="right-arrow">
+            </a>
+        </div>
+        <!-- 1-я карточка        -->
+        <div class="article-list">
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/laptop.png" alt="laptop-picture" width="260" height="198">
+                </div>
+                <h3>First Month Of Leaning React jS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!-- 2-я карточка     -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/monitor-with-people.png" alt="Computer-picture" width="260" height="198">
+                </div>
+                <h3>Build Markdown Editor With React JS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  3-я карточка       -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/JS%20code.png" alt="JS-code-picture" width="260" height="198">
+                </div>
+                <h3>Getting Started With React JS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+            <!--  4-я карточка      -->
+            <a href="#" class="article-link">
+                <div class="article-image">
+                    <img src="img/Article_Image.png" alt="C#-picture" width="260" height="198">
+                </div>
+                <h3>Make Tic Tac Toe Games With React JS</h3>
+                <div class="author-wrapper">
+                    <div class="author-image">
+                        <img src="img/small-picture.png" alt="Notebook-picture" width="57" height="57">
+                    </div>
+                    <div class="author-name">
+                        <h4>Dasteen</h4>
+                        <p>Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </a>
+        </div><!-- .article-list -->
+        <div class="button-more-article">
+        <a href="#">More Article</a>
+        </div>
+    </div><!-- .w-1250 -->
+</section>
+
+<!--  footer    -->
+
+<footer>
+    <section class="Subscribe-for">
+        <div class="w-1250">
+            <div class="container-subscribe">
+                <div class="post-wrapper">
+                    <div class="circle">
+                        <!-- Круг -->
+                        <img src="img/Ellipse%2093.png" alt="circle" class="circle-image">
+                        <!-- Значок почты -->
+                        <img src="img/Post.png" alt="email-picture" class="email-post">
+                    </div>
+                </div>
+                <div class="email-name">
+                    <div class="title-text"><h4>Subscribe For the lastest updates</h4></div>
+                    <div class="text-email"><p>Subscribe to newsletter and never miss the new post every week.</p></div>
+                </div>
+                <form class="subscribe-form">
+                    <label>
+                        <input type="email" name="email" placeholder="Enter your email here....">
+                    </label>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer-wrapper">
+        <div class="w-1250">
+            <div class="footer-content">
+                <div class="about-website">
+                    <h2 class="Logo">Dasteen<span>.Blog</span></h2>
+                    <p>Digitaldastin by Dastin Darmawan</p>
+                    <div class="instagram-icon">
+                        <img src="img/Medium%20Monogram.png" alt="medium-monogram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                            <path d="M23 1.03813C22.0424 1.71361 20.9821 2.23024 19.86 2.56813C19.2577 1.87564 18.4573 1.38482 17.567 1.16206C16.6767 0.939292 15.7395 0.995328 14.8821 1.32259C14.0247 1.64984 13.2884 2.23253 12.773 2.99185C12.2575 3.75116 11.9877 4.65047 12 5.56813V6.56813C10.2426 6.6137 8.50127 6.22394 6.93101 5.43358C5.36074 4.64321 4.01032 3.47677 3 2.03813C3 2.03813 -1 11.0381 8 15.0381C5.94053 16.4361 3.48716 17.1371 1 17.0381C10 22.0381 21 17.0381 21 5.53813C20.9991 5.25959 20.9723 4.98173 20.92 4.70813C21.9406 3.70163 22.6608 2.43084 23 1.03813V1.03813Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.5 6.5H17.51" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8V8Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 9H2V21H6V9Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="#2B2C34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="category-about-me-get-in-touch-footer">
+                    <div class="header-category">
+                    <h4>Category</h4>
+                    <div class="category-links-icon">
+                        <a href="#">CSS</a>
+                        <a href="#">Javascript</a>
+                        <a href="#">Tailwind</a>
+                        <a href="#">React JS</a>
+                        <a href="#">More Category</a>
+                    </div>
+                    </div>
+                    <div class="about-me">
+                        <div class="header-category">
+                        <h4>About Me</h4>
+                        </div>
+                        <div class="category-links-icon">
+                        <a href="#">About Me</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Achievement</a>
+                        </div>
+                    </div>
+                    <!-- Get In Touch Section -->
+                    <div class="get-in-touch">
+                        <div class="header-category">
+                        <h4>Get in Touch</h4>
+                        </div>
+                        <div class="category-links-icon">
+                        <p>+62-8XXX-XXX-XX</p>
+                        <p>demo@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="follow-us">
+                        <div class="header-category">
+                            <h4>Follow Us</h4>
+                        </div>
+                        <div class="category-links-icon">
+                           <a href="#">Medium</a>
+                           <a href="#">Instagram</a>
+                           <a href="#">Twitter</a>
+                           <a href="#">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer-line"><hr></span>
+            <div class="copyright">
+                <p class="copyright-text">© 2025 Digitaldastin</p>
+            </div>
+        </div>
+    </section>
+</footer>
+</body>
+</html>

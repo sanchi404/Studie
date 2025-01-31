@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Общая обёртка на 1250px и автоцентрированием */
+.w-1250 {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* 1) ХЕДЕР НА ВСЮ ШИРИНУ */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFE;
+    z-index: 1;
+}
+
+/* Внутренняя обёртка хедера */
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+}
+
+header .Logo {
+    color: #001858;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+header span {
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Меню в шапке */
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+}
+nav a {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header-button-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-button {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 17px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/*  Герой-секция  */
+.hero-section {
+    width: 100vw;
+    background-color: #EFF0F3;
+    padding: 68px 0;
+}
+
+/* Блок, где текст + картинка */
+.box-form-picture- {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 271px;
+    gap: 116px;
+}
+
+/* Стиль для правой кнопки  */
+.right-button img {
+    width: 6px;
+    height: 14px;
+}
+/* Стиль для заголовка и большой картинки в header */
+section .text-email-picture {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+section .text-email-picture h1 {
+    width: 617px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Вертикальная полоса слева */
+.sidebar-text {
+    width: 652px;
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: 4px solid #2B2C34;
+    padding-left: 16px;
+}
+
+/* Форма подписки */
+.subscribe-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.subscribe-form input {
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe-form button {
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Картинка справа */
+.hero-image {
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Категории  */
+
+
+.category-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 273px 0 68px 0;
+    background-color: #EFF0F3;
+}
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Заголовки */
+.text-h2 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;                   /* отступ между текстом и стрелкой */
+    text-decoration: none;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.see-all-link img {
+    width: 6px;
+    height: 14px;
+}
+
+
+
+  /* Hover-карточки */
+.hover-cards {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 37px;
+}
+.white-box {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #FFFFFE;
+    box-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
+    transition: background-color 1s;
+}
+.icon {
+    display: flex;
+    justify-content: start;
+    margin: 65px 130px 95px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+}
+.text-name {
+    width: 118px;
+    color: #232323;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Hover-эффект */
+.white-box:hover {
+    background-color: #6246EA;
+    color: #FFFFFE;
+    transition: background-color 1s;
+}
+.white-box:hover .text-name {
+    color: #FFFFFE;
+}
+
+/******************Main-contain*******************/
+.main-content {
+    margin-top: 80px;
+}
+
+/* Заголовок слева — кнопка справа */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Контейнер с карточками (4 шт. в ряд) */
+.articles-row {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+/* Одна карточка статьи */
+.box-picture {
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+}
+
+
+
+.featured-articles{
+    margin-top: 80px;
+}
+
+.articles-row .w-1250 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.article-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    grid-template-rows: auto;
+}
+
+.article-list h3 {
+    color: #0D0D0D;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 260px;
+}
+.article-link {
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    margin-bottom: 80px;
+}
+.article-link:hover,
+.article-link:focus {
+    box-shadow: 3px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+/* Авторский блок */
+.author-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: auto;
+}
+.author-image {
+    width: 57px;
+    height: 57px;
+    border-radius: 57%;
+
+}
+.author-name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+}
+
+.author-name h4 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.author-name p {
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.button-more-article{
+    text-align: center;
+}
+
+.button-more-article a{
+    display: inline-flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/**************************    Email-post-form    **********************/
+
+/* Стили для секции */
+.Subscribe-for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 58px 372px;
+    background: #EFF0F3;
+    margin-top: 80px;
+}
+
+/* Центрирование контейнера */
+.container-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Обёртка для круга */
+.post-wrapper {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+/* Круг */
+.circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Значок почты */
+.email-post {
+    position: absolute;
+    top: 50%; /* Центрируем по вертикали */
+    left: 50%; /* Центрируем по горизонтали */
+    transform: translate(-50%, -50%);
+    width: 80.07px;
+    height: 106.75px;
+}
+
+.email-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Если расстояние между элементами больше, уменьшите */
+}
+
+
+.title-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.text-email{
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Subscribe-for .subscribe-form {
+    margin-top: 30px;
+}
+
+.subscribe-form input {
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+}
+
+.subscribe-form button {
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+}
+
+/**********************    FOOTER-logo-social networks      *******************/
+
+.footer-wrapper {
+    height: 435px;
+    flex-shrink: 0;
+    background: #E4E5E9;
+    width: 100%;
+}
+
+.footer-content{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 160px;
+    padding-top: 70px;
+}
+
+.about-website{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+footer .Logo {
+    color: #001858;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer span {
+    width: 47px;
+    height: 27px;
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-website p{
+    width: 284px;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.instagram-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/**************** CATEGORY ABOUT ME  GET IN TOUCH  ********************/
+
+.category-about-me-get-in-touch-footer{
+    display: flex;
+    align-items: flex-start;
+    gap: 95px;
+}
+
+.header-category,
+.about-me,
+.get-in-touch,
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.header-category h4{
+    color:#2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.category-links-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.category-links-icon p{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.category-links-icon a{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-line hr{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin-top: 50px;
+}
+.copyright-text {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 26px;
+}
+

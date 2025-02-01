@@ -94,7 +94,7 @@ nav a {
 
 /*  Герой-секция  */
 .hero-section {
-    width: 100vw;
+    width: 100%;
     background-color: #EFF0F3;
     padding: 68px 0;
 }
@@ -193,6 +193,7 @@ section .text-email-picture h1 {
 
 
 .category-section{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -206,7 +207,7 @@ section .text-email-picture h1 {
 }
 
 /* Заголовки */
-.text-h2 {
+.category-intro {
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
@@ -327,7 +328,7 @@ section .text-email-picture h1 {
     align-items: center;
     border-radius: 12px;
     background: #FFFFFE;
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 
@@ -377,7 +378,7 @@ section .text-email-picture h1 {
     align-items: center;
     border-radius: 12px;
     background: #FFFFFE;
-    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     margin-bottom: 80px;
 }
 .article-link:hover,
@@ -452,12 +453,14 @@ section .text-email-picture h1 {
 
 /* Стили для секции */
 .Subscribe-for {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 58px 372px;
     background: #EFF0F3;
     margin-top: 80px;
+    box-sizing: border-box;
 }
 
 /* Центрирование контейнера */
@@ -543,6 +546,7 @@ section .text-email-picture h1 {
     gap: 10px;
     border-radius: 8px;
     background: #FFFFFE;
+    border: none;
 }
 
 .subscribe-form button {
@@ -554,6 +558,7 @@ section .text-email-picture h1 {
     gap: 10px;
     border-radius: 8px;
     background: #6246EA;
+    border: none;
 }
 
 /**********************    FOOTER-logo-social networks      *******************/
@@ -671,7 +676,7 @@ footer span {
     line-height: normal;
 }
 
-.footer-line hr{
+.footer-line{
     width: 1250px;
     height: 1px;
     background: #C0C0C0;

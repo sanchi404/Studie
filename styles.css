@@ -507,7 +507,7 @@ section .text-email-picture h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Если расстояние между элементами больше, уменьшите */
+    gap: 10px;
 }
 
 
